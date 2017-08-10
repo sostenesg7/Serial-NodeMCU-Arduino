@@ -93,8 +93,7 @@ void varredura()
 
 		//Ordem de envio: freq,Z_Val,phase
 		// 'P' Indica que a node pode trabalhar
-		Serial.print(((String)'P') + ","((String)freq) + "," + ((String)Z_Val) + "," + ((String)phase));
-
+		String dados = ((String)'P') + ","((String)freq) + "," + ((String)Z_Val) + "," + ((String)phase);
 		//TESTE String dados = ((String)'P') + "," + ((String)freq) + "," + ((String)(i * 2)) + "," + ((String)(i * 3));
 		serialNode.println(dados);
 		delay(500);
