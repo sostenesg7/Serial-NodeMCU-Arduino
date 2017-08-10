@@ -6,7 +6,7 @@
 #define num_inc 11			  // Número de Incrementos
 #define cal_samples 10		  // Amostras de Calibração
 
-#define BUTTON_PIN 2
+#define BUTTON_PIN 7
 
 #include <AD5933.h>
 #include <Wire.h>
